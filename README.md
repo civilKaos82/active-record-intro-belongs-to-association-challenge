@@ -46,7 +46,7 @@ If a model's database table has a foreign key that points to another model, it b
 
 ### Declaring a Belongs To Association
 ```ruby
-class Rating < ActiveRecord::Base
+class Rating < ApplicationRecord
   belongs_to :dog
 end
 ```
